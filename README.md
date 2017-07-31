@@ -35,5 +35,5 @@ $ docker run -v $PWD/target:/target dnsproxy
 ```
 $ go get -u github.com/ARwMq9b6/dnsproxy
 $ cd $GOPATH/src/github.com/ARwMq9b6/dnsproxy/cmd/dnsproxy
-$ make
+$ go build
 ```
